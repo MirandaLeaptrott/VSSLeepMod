@@ -3,10 +3,9 @@
   "modid": "simplesleepsolution",
   "name": "Simple Sleep Solution",
   "authors": [ "MiraLeaps" ],
-  "description": "Adds a simple tiredness system based on time since last waking. No overhead.",
-  "version": "1.0.0",
+  "description": "Adds a simple tiredness system based on time since last waking. HUD adapted from xlib by Xandu (used with credit).",
+  "version": "1.1.0",
   "dependencies": {
-    "game": "1.21.6",
-    "xlib": ""
+    "game": "1.21.6"
   }
 }

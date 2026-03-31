@@ -37,13 +37,12 @@
       <HintPath>$(VINTAGE_STORY)\Mods\VSSurvivalMod.dll</HintPath>
       <Private>False</Private>
     </Reference>
-	  <Reference Include="VSEssentials">
+    <Reference Include="VSEssentials">
       <HintPath>$(VINTAGE_STORY)\Mods\VSEssentials.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <!-- xlib DLL — adjust path to wherever you keep it -->
-    <Reference Include="xlib">
-      <HintPath>C:\Users\chris\Documents\New folder\working\TAILORING PROJECT\xlib.dll</HintPath>
+    <Reference Include="protobuf-net">
+      <HintPath>$(VINTAGE_STORY)\Lib\protobuf-net.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>

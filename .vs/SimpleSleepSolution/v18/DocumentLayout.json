@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\chris\\Documents\\New folder\\working\\SleepMod\\files\\",
+  "WorkspaceRootPath": "C:\\Users\\chris\\Documents\\New folder\\working\\VSSLeepMod\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C5AB930-1EB0-08E9-7667-5F731D474355}|SimpleSleepSolution.csproj|c:\\users\\chris\\documents\\new folder\\working\\sleepmod\\files\\simplesleepsolution.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4C5AB930-1EB0-08E9-7667-5F731D474355}|SimpleSleepSolution.csproj|solutionrelative:simplesleepsolution.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{4C5AB930-1EB0-08E9-7667-5F731D474355}|SimpleSleepSolution.csproj|c:\\users\\chris\\documents\\new folder\\working\\vssleepmod\\simplesleepsolutionmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5AB930-1EB0-08E9-7667-5F731D474355}|SimpleSleepSolution.csproj|solutionrelative:simplesleepsolutionmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C5AB930-1EB0-08E9-7667-5F731D474355}|SimpleSleepSolution.csproj|c:\\users\\chris\\documents\\new folder\\working\\sleepmod\\files\\simplesleepsolutionmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C5AB930-1EB0-08E9-7667-5F731D474355}|SimpleSleepSolution.csproj|solutionrelative:simplesleepsolutionmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C5AB930-1EB0-08E9-7667-5F731D474355}|SimpleSleepSolution.csproj|c:\\users\\chris\\documents\\new folder\\working\\vssleepmod\\simplesleepsolution.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4C5AB930-1EB0-08E9-7667-5F731D474355}|SimpleSleepSolution.csproj|solutionrelative:simplesleepsolution.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chris\\Documents\\New folder\\working\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\XEffectsSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -29,11 +29,11 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chris\\Documents\\New folder\\working\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\AffectedEntityBehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C5AB930-1EB0-08E9-7667-5F731D474355}|SimpleSleepSolution.csproj|c:\\users\\chris\\documents\\new folder\\working\\sleepmod\\files\\bedpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C5AB930-1EB0-08E9-7667-5F731D474355}|SimpleSleepSolution.csproj|c:\\users\\chris\\documents\\new folder\\working\\vssleepmod\\bedpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C5AB930-1EB0-08E9-7667-5F731D474355}|SimpleSleepSolution.csproj|solutionrelative:bedpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C5AB930-1EB0-08E9-7667-5F731D474355}|SimpleSleepSolution.csproj|c:\\users\\chris\\documents\\new folder\\working\\sleepmod\\files\\wakeallplayerspatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C5AB930-1EB0-08E9-7667-5F731D474355}|SimpleSleepSolution.csproj|c:\\users\\chris\\documents\\new folder\\working\\vssleepmod\\wakeallplayerspatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C5AB930-1EB0-08E9-7667-5F731D474355}|SimpleSleepSolution.csproj|solutionrelative:wakeallplayerspatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -44,16 +44,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Patches.cs",
               "DocumentMoniker": "C:\\Users\\chris\\Documents\\New folder\\working\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\Patches.cs",
-              "RelativeDocumentMoniker": "..\\..\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\Patches.cs",
+              "RelativeDocumentMoniker": "..\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\Patches.cs",
               "ToolTip": "C:\\Users\\chris\\Documents\\New folder\\working\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\Patches.cs",
-              "RelativeToolTip": "..\\..\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\Patches.cs",
+              "RelativeToolTip": "..\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\Patches.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-27T13:42:19.223Z"
@@ -63,9 +63,9 @@
               "DocumentIndex": 5,
               "Title": "XEffectsHelper.cs",
               "DocumentMoniker": "C:\\Users\\chris\\Documents\\New folder\\working\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\XEffectsHelper.cs",
-              "RelativeDocumentMoniker": "..\\..\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\XEffectsHelper.cs",
+              "RelativeDocumentMoniker": "..\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\XEffectsHelper.cs",
               "ToolTip": "C:\\Users\\chris\\Documents\\New folder\\working\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\XEffectsHelper.cs",
-              "RelativeToolTip": "..\\..\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\XEffectsHelper.cs",
+              "RelativeToolTip": "..\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\XEffectsHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-27T13:42:13.307Z"
@@ -75,9 +75,9 @@
               "DocumentIndex": 6,
               "Title": "XEffectsConfig.cs",
               "DocumentMoniker": "C:\\Users\\chris\\Documents\\New folder\\working\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\XEffectsConfig.cs",
-              "RelativeDocumentMoniker": "..\\..\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\XEffectsConfig.cs",
+              "RelativeDocumentMoniker": "..\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\XEffectsConfig.cs",
               "ToolTip": "C:\\Users\\chris\\Documents\\New folder\\working\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\XEffectsConfig.cs",
-              "RelativeToolTip": "..\\..\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\XEffectsConfig.cs",
+              "RelativeToolTip": "..\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\XEffectsConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-27T13:42:09.963Z"
@@ -87,9 +87,9 @@
               "DocumentIndex": 7,
               "Title": "AffectedEntityBehavior.cs",
               "DocumentMoniker": "C:\\Users\\chris\\Documents\\New folder\\working\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\AffectedEntityBehavior.cs",
-              "RelativeDocumentMoniker": "..\\..\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\AffectedEntityBehavior.cs",
+              "RelativeDocumentMoniker": "..\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\AffectedEntityBehavior.cs",
               "ToolTip": "C:\\Users\\chris\\Documents\\New folder\\working\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\AffectedEntityBehavior.cs",
-              "RelativeToolTip": "..\\..\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\AffectedEntityBehavior.cs",
+              "RelativeToolTip": "..\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\AffectedEntityBehavior.cs",
               "ViewState": "AgIAAMUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-27T13:39:55.182Z"
@@ -99,9 +99,9 @@
               "DocumentIndex": 2,
               "Title": "XEffectsSystem.cs",
               "DocumentMoniker": "C:\\Users\\chris\\Documents\\New folder\\working\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\XEffectsSystem.cs",
-              "RelativeDocumentMoniker": "..\\..\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\XEffectsSystem.cs",
+              "RelativeDocumentMoniker": "..\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\XEffectsSystem.cs",
               "ToolTip": "C:\\Users\\chris\\Documents\\New folder\\working\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\XEffectsSystem.cs",
-              "RelativeToolTip": "..\\..\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\XEffectsSystem.cs",
+              "RelativeToolTip": "..\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\XEffectsSystem.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-27T13:38:52.786Z"
@@ -110,9 +110,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "WakeAllPlayersPatch.cs",
-              "DocumentMoniker": "C:\\Users\\chris\\Documents\\New folder\\working\\SleepMod\\files\\WakeAllPlayersPatch.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\Documents\\New folder\\working\\VSSLeepMod\\WakeAllPlayersPatch.cs",
               "RelativeDocumentMoniker": "WakeAllPlayersPatch.cs",
-              "ToolTip": "C:\\Users\\chris\\Documents\\New folder\\working\\SleepMod\\files\\WakeAllPlayersPatch.cs",
+              "ToolTip": "C:\\Users\\chris\\Documents\\New folder\\working\\VSSLeepMod\\WakeAllPlayersPatch.cs",
               "RelativeToolTip": "WakeAllPlayersPatch.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -120,13 +120,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "SimpleSleepSolutionMod.cs",
-              "DocumentMoniker": "C:\\Users\\chris\\Documents\\New folder\\working\\SleepMod\\files\\SimpleSleepSolutionMod.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\Documents\\New folder\\working\\VSSLeepMod\\SimpleSleepSolutionMod.cs",
               "RelativeDocumentMoniker": "SimpleSleepSolutionMod.cs",
-              "ToolTip": "C:\\Users\\chris\\Documents\\New folder\\working\\SleepMod\\files\\SimpleSleepSolutionMod.cs",
+              "ToolTip": "C:\\Users\\chris\\Documents\\New folder\\working\\VSSLeepMod\\SimpleSleepSolutionMod.cs",
               "RelativeToolTip": "SimpleSleepSolutionMod.cs",
-              "ViewState": "AgIAAD0BAAAAAAAAAADwvyAAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAuwBAAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-27T12:56:34.786Z",
               "EditorCaption": ""
@@ -135,9 +135,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "BedPatch.cs",
-              "DocumentMoniker": "C:\\Users\\chris\\Documents\\New folder\\working\\SleepMod\\files\\BedPatch.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\Documents\\New folder\\working\\VSSLeepMod\\BedPatch.cs",
               "RelativeDocumentMoniker": "BedPatch.cs",
-              "ToolTip": "C:\\Users\\chris\\Documents\\New folder\\working\\SleepMod\\files\\BedPatch.cs",
+              "ToolTip": "C:\\Users\\chris\\Documents\\New folder\\working\\VSSLeepMod\\BedPatch.cs",
               "RelativeToolTip": "BedPatch.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -145,11 +145,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SimpleSleepSolution.csproj",
-              "DocumentMoniker": "C:\\Users\\chris\\Documents\\New folder\\working\\SleepMod\\files\\SimpleSleepSolution.csproj",
+              "DocumentMoniker": "C:\\Users\\chris\\Documents\\New folder\\working\\VSSLeepMod\\SimpleSleepSolution.csproj",
               "RelativeDocumentMoniker": "SimpleSleepSolution.csproj",
-              "ToolTip": "C:\\Users\\chris\\Documents\\New folder\\working\\SleepMod\\files\\SimpleSleepSolution.csproj",
+              "ToolTip": "C:\\Users\\chris\\Documents\\New folder\\working\\VSSLeepMod\\SimpleSleepSolution.csproj",
               "RelativeToolTip": "SimpleSleepSolution.csproj",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -161,9 +161,9 @@
               "DocumentIndex": 3,
               "Title": "AttributeEffect.cs",
               "DocumentMoniker": "C:\\Users\\chris\\Documents\\New folder\\working\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\Effect\\AttributeEffect.cs",
-              "RelativeDocumentMoniker": "..\\..\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\Effect\\AttributeEffect.cs",
+              "RelativeDocumentMoniker": "..\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\Effect\\AttributeEffect.cs",
               "ToolTip": "C:\\Users\\chris\\Documents\\New folder\\working\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\Effect\\AttributeEffect.cs",
-              "RelativeToolTip": "..\\..\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\Effect\\AttributeEffect.cs",
+              "RelativeToolTip": "..\\TAILORING PROJECT\\VSMods-master\\VSMods-master\\mods\\xlib\\src\\xeffects\\Effect\\AttributeEffect.cs",
               "ViewState": "AgIAAKsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-27T13:42:30.287Z"

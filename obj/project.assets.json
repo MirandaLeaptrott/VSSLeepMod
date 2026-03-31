@@ -95,11 +95,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chris\\Documents\\New folder\\working\\SleepMod\\files\\SimpleSleepSolution.csproj",
+      "projectUniqueName": "C:\\Users\\chris\\Documents\\New folder\\working\\VSSLeepMod\\SimpleSleepSolution.csproj",
       "projectName": "SimpleSleepSolution",
-      "projectPath": "C:\\Users\\chris\\Documents\\New folder\\working\\SleepMod\\files\\SimpleSleepSolution.csproj",
+      "projectPath": "C:\\Users\\chris\\Documents\\New folder\\working\\VSSLeepMod\\SimpleSleepSolution.csproj",
       "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chris\\Documents\\New folder\\working\\SleepMod\\files\\obj\\",
+      "outputPath": "C:\\Users\\chris\\Documents\\New folder\\working\\VSSLeepMod\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
