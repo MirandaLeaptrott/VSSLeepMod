@@ -67,18 +67,16 @@ namespace SimpleSleepSolution
             CairoFont iconFont    = CairoFont.WhiteMediumText().WithFontSize(28).WithColor(colour);
             CairoFont stackFont   = CairoFont.WhiteSmallishText().WithColor(colour);
 
-            // Position bottom-left, sitting just above the health/saturation bars
-            ElementBounds dialogBounds = ElementStdBounds.AutosizedMainDialog
-                .WithAlignment(EnumDialogArea.LeftBottom)
-                .WithFixedOffset(5, -60);
+            // FixedOffseted pins relative to a screen edge — LeftBottom with negative Y
+            // moves up from the bottom of the screen.
+            // -175 sits above the health/saturation bars. Tune this value if needed.
+            ElementBounds dialogBounds = ElementBounds.FixedOffseted(EnumDialogArea.LeftBottom, 5, 0, 70, 70);
 
-            ElementBounds bgBounds = ElementBounds.Fill.WithFixedPadding(6);
-            bgBounds.BothSizing = ElementSizing.FitToChildren;
+            ElementBounds bgBounds    = ElementBounds.Fill.WithFixedPadding(6);
+            bgBounds.BothSizing       = ElementSizing.FitToChildren;
 
-            // Icon bounds (moon + zzz text)
-            ElementBounds iconBounds  = ElementBounds.FixedPos(EnumDialogArea.LeftTop, 4, 4).WithFixedSize(48, 40);
-            // Stack count below icon
-            ElementBounds countBounds = ElementBounds.FixedPos(EnumDialogArea.LeftTop, 4, 44).WithFixedSize(48, 20);
+            ElementBounds iconBounds  = ElementBounds.FixedPos(EnumDialogArea.LeftTop, 4, 4).WithFixedSize(56, 36);
+            ElementBounds countBounds = ElementBounds.FixedPos(EnumDialogArea.LeftTop, 4, 42).WithFixedSize(56, 20);
 
             bgBounds.WithChildren(iconBounds, countBounds);
             dialogBounds.WithChild(bgBounds);
@@ -172,9 +170,8 @@ namespace SimpleSleepSolution
 
         public SSSTooltip(ICoreClientAPI capi) : base(capi)
         {
-            ElementBounds dialogBounds = ElementStdBounds.AutosizedMainDialog
-                .WithAlignment(EnumDialogArea.LeftBottom)
-                .WithFixedOffset(75, -60);
+            // Tooltip appears to the right of the icon, same vertical position
+            ElementBounds dialogBounds = ElementBounds.FixedOffseted(EnumDialogArea.LeftBottom, 80, 0, 240, 150);
 
             ElementBounds bgBounds    = ElementBounds.Fill.WithFixedPadding(GuiStyle.ElementToDialogPadding);
             bgBounds.BothSizing       = ElementSizing.FitToChildren;
