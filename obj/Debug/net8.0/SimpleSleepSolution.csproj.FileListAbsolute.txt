@@ -1,13 +1,6 @@
-C:\Users\chris\Documents\New folder\working\SleepMod\files\obj\Debug\net8.0\SimpleSleepSolution.csproj.AssemblyReference.cache
-C:\Users\chris\Documents\New folder\working\SleepMod\files\obj\Debug\net8.0\SimpleSleepSolution.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\chris\Documents\New folder\working\SleepMod\files\obj\Debug\net8.0\SimpleSleepSolution.csproj.CoreCompileInputs.cache
-C:\Users\chris\Documents\New folder\working\SleepMod\files\bin\net8.0\SimpleSleepSolution.deps.json
-C:\Users\chris\Documents\New folder\working\SleepMod\files\bin\net8.0\SimpleSleepSolution.dll
-C:\Users\chris\Documents\New folder\working\SleepMod\files\bin\net8.0\SimpleSleepSolution.pdb
-C:\Users\chris\Documents\New folder\working\SleepMod\files\obj\Debug\net8.0\SimpleSleepSolution.dll
-C:\Users\chris\Documents\New folder\working\SleepMod\files\obj\Debug\net8.0\refint\SimpleSleepSolution.dll
-C:\Users\chris\Documents\New folder\working\SleepMod\files\obj\Debug\net8.0\SimpleSleepSolution.pdb
-C:\Users\chris\Documents\New folder\working\SleepMod\files\obj\Debug\net8.0\ref\SimpleSleepSolution.dll
+C:\Users\chris\Documents\New folder\working\VSSLeepMod\bin\net8.0\SimpleSleepSolution.deps.json
+C:\Users\chris\Documents\New folder\working\VSSLeepMod\bin\net8.0\SimpleSleepSolution.dll
+C:\Users\chris\Documents\New folder\working\VSSLeepMod\bin\net8.0\SimpleSleepSolution.pdb
 C:\Users\chris\Documents\New folder\working\VSSLeepMod\obj\Debug\net8.0\SimpleSleepSolution.csproj.AssemblyReference.cache
 C:\Users\chris\Documents\New folder\working\VSSLeepMod\obj\Debug\net8.0\SimpleSleepSolution.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\chris\Documents\New folder\working\VSSLeepMod\obj\Debug\net8.0\SimpleSleepSolution.csproj.CoreCompileInputs.cache
@@ -15,7 +8,4 @@ C:\Users\chris\Documents\New folder\working\VSSLeepMod\obj\Debug\net8.0\SimpleSl
 C:\Users\chris\Documents\New folder\working\VSSLeepMod\obj\Debug\net8.0\SimpleSleepSolution.dll
 C:\Users\chris\Documents\New folder\working\VSSLeepMod\obj\Debug\net8.0\refint\SimpleSleepSolution.dll
 C:\Users\chris\Documents\New folder\working\VSSLeepMod\obj\Debug\net8.0\SimpleSleepSolution.pdb
-C:\Users\chris\Documents\New folder\working\VSSLeepMod\bin\net8.0\SimpleSleepSolution.deps.json
-C:\Users\chris\Documents\New folder\working\VSSLeepMod\bin\net8.0\SimpleSleepSolution.dll
-C:\Users\chris\Documents\New folder\working\VSSLeepMod\bin\net8.0\SimpleSleepSolution.pdb
 C:\Users\chris\Documents\New folder\working\VSSLeepMod\obj\Debug\net8.0\ref\SimpleSleepSolution.dll

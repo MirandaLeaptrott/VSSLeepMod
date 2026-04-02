@@ -1,18 +1,11 @@
 {
-  "simplesleepsolution:sss-tired-walkspeed-effect": "Tired (Movement)",
-  "simplesleepsolution:sss-tired-walkspeed-effectdesc": "You are tired. Movement speed reduced by {0:P2}.",
-  "simplesleepsolution:sss-tired-mining-effect": "Tired (Mining)",
-  "simplesleepsolution:sss-tired-mining-effectdesc": "You are tired. Mining speed reduced by {0:P2}.",
-  "simplesleepsolution:sss-tired-melee-effect": "Tired (Melee)",
-  "simplesleepsolution:sss-tired-melee-effectdesc": "You are tired. Melee damage reduced by {0:P2}.",
-  "simplesleepsolution:sss-tired-healing-effect": "Tired (Healing)",
-  "simplesleepsolution:sss-tired-healing-effectdesc": "You are tired. Healing effectiveness reduced by {0:P2}.",
-
-  "simplesleepsolution:sss-warning": "You've been awake {0} hours. It's Bed Time!",
+  "simplesleepsolution:sss-warning": "You've been awake {0} hours. Its Bed Time!",
   "simplesleepsolution:sss-stack1": "You're exhausted ({0}h awake). Your body is starting to suffer.",
   "simplesleepsolution:sss-stack2": "You're very exhausted ({0}h awake). Find a bed.",
   "simplesleepsolution:sss-stack3": "You can barely keep your eyes open ({0}h awake).",
   "simplesleepsolution:sss-stack4": "You're running on empty ({0}h awake). This is dangerous.",
   "simplesleepsolution:sss-stack5": "You are completely exhausted ({0}h awake). Sleep. Now.",
-  "simplesleepsolution:sss-storm-wakeup": "A temporal storm has roused you from your sleep. The adrenaline clears your head — for now."
+  "simplesleepsolution:sss-stack6": "You are beyond exhausted ({0}h awake). You can barely function.",
+  "simplesleepsolution:sss-storm-wakeup": "A temporal storm jolts you awake! Adrenaline hits you — you're wide awake.",
+  "simplesleepsolution:sss-tooltip-title": "Tiredness"
 }

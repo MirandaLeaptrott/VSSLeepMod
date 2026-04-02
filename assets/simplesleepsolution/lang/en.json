@@ -7,7 +7,5 @@
   "simplesleepsolution:sss-stack5": "You are completely exhausted ({0}h awake). Sleep. Now.",
   "simplesleepsolution:sss-stack6": "You are beyond exhausted ({0}h awake). You can barely function.",
   "simplesleepsolution:sss-storm-wakeup": "A temporal storm jolts you awake! Adrenaline hits you — you're wide awake.",
-
-  "simplesleepsolution:sss-tooltip-title": "Tiredness",
-  "simplesleepsolution:sss-tooltip": "Stacks: {0}/{1}\n\nWalk speed: {2}%\nMining speed: {3}%\nMelee damage: {4}%\nHealing: {5}%"
+  "simplesleepsolution:sss-tooltip-title": "Tiredness"
 }

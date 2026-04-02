@@ -14,15 +14,15 @@ namespace SimpleSleepSolution
     /// </summary>
     public class SSSHud : HudElement
     {
-        private int currentStacks = 0;
-        private int maxStacks = 6;
+        private int currentStacks  = 0;
+        private int maxStacks      = 6;
         private SSSConfig config;
 
         // Colour bands: green=0, yellow=1-2, orange=3-4, red=5+
-        private static readonly double[] ColourGreen = { 0.3, 0.8, 0.3 };
-        private static readonly double[] ColourYellow = { 0.95, 0.85, 0.1 };
-        private static readonly double[] ColourOrange = { 0.95, 0.5, 0.05 };
-        private static readonly double[] ColourRed = { 0.9, 0.15, 0.15 };
+        private static readonly double[] ColourGreen  = { 0.3,  0.8,  0.3  };
+        private static readonly double[] ColourYellow = { 0.95, 0.85, 0.1  };
+        private static readonly double[] ColourOrange = { 0.95, 0.5,  0.05 };
+        private static readonly double[] ColourRed    = { 0.9,  0.15, 0.15 };
 
         private SSSTooltip tooltip;
 
@@ -35,7 +35,7 @@ namespace SimpleSleepSolution
         public void OnStacksChanged(int stacks, int max)
         {
             currentStacks = stacks;
-            maxStacks = max;
+            maxStacks     = max;
             Rebuild();
         }
 
@@ -64,31 +64,31 @@ namespace SimpleSleepSolution
             }
 
             double[] colour = GetColour();
-            CairoFont iconFont = CairoFont.WhiteMediumText().WithFontSize(28).WithColor(colour);
-            CairoFont stackFont = CairoFont.WhiteSmallishText().WithColor(colour);
+            CairoFont iconFont    = CairoFont.WhiteMediumText().WithFontSize(28).WithColor(colour);
+            CairoFont stackFont   = CairoFont.WhiteSmallishText().WithColor(colour);
 
-            // Position at bottom-centre of screen
+            // Position at bottom-left, above the hotbar
             ElementBounds dialogBounds = ElementStdBounds.AutosizedMainDialog
-                .WithAlignment(EnumDialogArea.CenterBottom)
-                .WithFixedOffset(0, -60);
+                .WithAlignment(EnumDialogArea.LeftBottom)
+                .WithFixedOffset(10, -100);
 
             ElementBounds bgBounds = ElementBounds.Fill.WithFixedPadding(6);
             bgBounds.BothSizing = ElementSizing.FitToChildren;
 
             // Icon bounds (moon + zzz text)
-            ElementBounds iconBounds = ElementBounds.FixedPos(EnumDialogArea.LeftTop, 4, 4).WithFixedSize(48, 40);
+            ElementBounds iconBounds  = ElementBounds.FixedPos(EnumDialogArea.LeftTop, 4, 4).WithFixedSize(48, 40);
             // Stack count below icon
             ElementBounds countBounds = ElementBounds.FixedPos(EnumDialogArea.LeftTop, 4, 44).WithFixedSize(48, 20);
 
             bgBounds.WithChildren(iconBounds, countBounds);
             dialogBounds.WithChild(bgBounds);
 
-            string iconText = "☾zzz";
+            string iconText  = "☾zzz";
             string stackText = currentStacks + "/" + maxStacks;
 
             SingleComposer = capi.Gui.CreateCompo("SSSHud", dialogBounds)
                 .AddGrayBG(bgBounds)
-                .AddStaticText(iconText, iconFont, iconBounds, "sssicon")
+                .AddStaticText(iconText,  iconFont,  iconBounds,  "sssicon")
                 .AddStaticText(stackText, stackFont, countBounds, "ssscount")
                 .AddInteractiveElement(new SSSHoverZone(capi, bgBounds, tooltip, this), "ssshover")
                 .Compose();
@@ -108,14 +108,13 @@ namespace SimpleSleepSolution
         {
             if (currentStacks == 0) return "";
 
-            double walk = Math.Round(config.WalkPerStack * currentStacks * 100);
-            double mining = Math.Round(config.MiningPerStack * currentStacks * 100);
-            double melee = Math.Round(config.MeleePerStack * currentStacks * 100);
+            double walk    = Math.Round(config.WalkPerStack    * currentStacks * 100);
+            double mining  = Math.Round(config.MiningPerStack  * currentStacks * 100);
+            double melee   = Math.Round(config.MeleePerStack   * currentStacks * 100);
             double healing = Math.Round(config.HealingPerStack * currentStacks * 100);
 
-            return Lang.Get("simplesleepsolution:sss-tooltip",
-                currentStacks, maxStacks,
-                walk, mining, melee, healing);
+            // Build directly — avoids lang key resolution issues client-side
+            return $"Stacks: {currentStacks}/{maxStacks}\n\nWalk speed: {walk}%\nMining speed: {mining}%\nMelee damage: {melee}%\nHealing: {healing}%";
         }
 
         public override void Dispose()
@@ -138,7 +137,7 @@ namespace SimpleSleepSolution
             : base(capi, bounds)
         {
             this.tooltip = tooltip;
-            this.hud = hud;
+            this.hud     = hud;
         }
 
         public override void OnMouseMove(ICoreClientAPI api, MouseEvent args)
@@ -174,14 +173,14 @@ namespace SimpleSleepSolution
         public SSSTooltip(ICoreClientAPI capi) : base(capi)
         {
             ElementBounds dialogBounds = ElementStdBounds.AutosizedMainDialog
-                .WithAlignment(EnumDialogArea.CenterBottom)
-                .WithFixedOffset(70, -60);
+                .WithAlignment(EnumDialogArea.LeftBottom)
+                .WithFixedOffset(75, -100);
 
-            ElementBounds bgBounds = ElementBounds.Fill.WithFixedPadding(GuiStyle.ElementToDialogPadding);
-            bgBounds.BothSizing = ElementSizing.FitToChildren;
+            ElementBounds bgBounds    = ElementBounds.Fill.WithFixedPadding(GuiStyle.ElementToDialogPadding);
+            bgBounds.BothSizing       = ElementSizing.FitToChildren;
 
             ElementBounds titleBounds = ElementBounds.Fixed(0, 0, 220, 24);
-            ElementBounds bodyBounds = ElementBounds.Fixed(0, 28, 220, 80);
+            ElementBounds bodyBounds  = ElementBounds.Fixed(0, 28, 220, 80);
 
             bgBounds.WithChildren(titleBounds, bodyBounds);
             dialogBounds.WithChild(bgBounds);
@@ -189,11 +188,11 @@ namespace SimpleSleepSolution
             SingleComposer = capi.Gui.CreateCompo("SSSTooltip", dialogBounds)
                 .AddDialogBG(bgBounds, false)
                 .AddDynamicText("", CairoFont.WhiteSmallishText(), titleBounds, "sssttitle")
-                .AddDynamicText("", CairoFont.WhiteDetailText(), bodyBounds, "sssttbody")
+                .AddDynamicText("", CairoFont.WhiteDetailText(),   bodyBounds,  "sssttbody")
                 .Compose();
 
             titleText = SingleComposer.GetDynamicText("sssttitle");
-            bodyText = SingleComposer.GetDynamicText("sssttbody");
+            bodyText  = SingleComposer.GetDynamicText("sssttbody");
         }
 
         public void Show(string text, ElementBounds near)
