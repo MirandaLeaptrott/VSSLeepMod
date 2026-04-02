@@ -67,10 +67,10 @@ namespace SimpleSleepSolution
             CairoFont iconFont    = CairoFont.WhiteMediumText().WithFontSize(28).WithColor(colour);
             CairoFont stackFont   = CairoFont.WhiteSmallishText().WithColor(colour);
 
-            // Position at bottom-left, above the hotbar
+            // Position bottom-left, sitting just above the health/saturation bars
             ElementBounds dialogBounds = ElementStdBounds.AutosizedMainDialog
                 .WithAlignment(EnumDialogArea.LeftBottom)
-                .WithFixedOffset(10, -100);
+                .WithFixedOffset(5, -60);
 
             ElementBounds bgBounds = ElementBounds.Fill.WithFixedPadding(6);
             bgBounds.BothSizing = ElementSizing.FitToChildren;
@@ -83,7 +83,7 @@ namespace SimpleSleepSolution
             bgBounds.WithChildren(iconBounds, countBounds);
             dialogBounds.WithChild(bgBounds);
 
-            string iconText  = "☾zzz";
+            string iconText  = "zZz";
             string stackText = currentStacks + "/" + maxStacks;
 
             SingleComposer = capi.Gui.CreateCompo("SSSHud", dialogBounds)
@@ -174,13 +174,13 @@ namespace SimpleSleepSolution
         {
             ElementBounds dialogBounds = ElementStdBounds.AutosizedMainDialog
                 .WithAlignment(EnumDialogArea.LeftBottom)
-                .WithFixedOffset(75, -100);
+                .WithFixedOffset(75, -60);
 
             ElementBounds bgBounds    = ElementBounds.Fill.WithFixedPadding(GuiStyle.ElementToDialogPadding);
             bgBounds.BothSizing       = ElementSizing.FitToChildren;
 
             ElementBounds titleBounds = ElementBounds.Fixed(0, 0, 220, 24);
-            ElementBounds bodyBounds  = ElementBounds.Fixed(0, 28, 220, 80);
+            ElementBounds bodyBounds  = ElementBounds.Fixed(0, 28, 220, 110);
 
             bgBounds.WithChildren(titleBounds, bodyBounds);
             dialogBounds.WithChild(bgBounds);
